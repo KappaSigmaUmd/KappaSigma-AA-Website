@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <title>Kappa Sigma | UMD | Rush</title>
+    <%- include('partials/headTag') %> <!-- Inserts head tag stuff -->
+</head>
+<body>
+    <div class="scroll-container">
+        <section class="page">
+            <%- include('partials/navbar') %> <!-- Inserts navbar -->
+        </section>
+        <div class="outer-page rush-page">
+            <div class="inner-page rush-page">
+                <section class="page">
+                        <div class="rush">
+                            <div class="why-rush">
+                                <h1>Why Rush?</h1>
+                                <p>Rushing Kappa Sigma is more than joining a fraternity — it’s becoming part of the largest college fraternity in the world, with a brotherhood that extends far beyond your time in school. 
+                                   <br><br>
+                                   As a new colony at the University of Maryland, we offer unique opportunities for you to step into leadership roles right away, shape our chapter’s future, and help build something that will last for generations. Our chapter is built on respect, integrity, and camaraderie, with a strict zero-hazing policy that ensures a safe and supportive environment for every brother. If you’re looking for lifelong friendships, real leadership experience, and the chance to leave a lasting legacy, Kappa Sigma is the place to start.</p>
+                            </div>
+                            <div class="rush-poster">
+                                <img src="images/ks_rush_poster.jpg" alt="Kappa Sigma Fall 2025 Rush Poster" class="fall-rush-poster">
+                            </div>
+                            <div class="rush-form">
+                                <a href="https://l.instagram.com/?u=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLSe8byIlOadmLBdmqTBa3Yzu2c2uydyEmakJFAwtxyii5n_pww%2Fviewform%3Fusp%3Dsharing&e=AT2fK-xdeOgAwJ4FReT3fq03da_8tGQexGiiqEwSqKW0u-ntY2AoSq7m2BievIpED0E83gO6w4sqQi0UvKUS037_0_iV6vE-TZ6-ez0CTHrza407" target="_blank" class="rush-form-button">Fill Out The Interest Form!</a>
+                            </div>
+                        </div>
+                </section>
+            </div>
+        </div>
+        <section class = "page">
+            <%- include('partials/footer') %> <!-- Inserts footer -->
+        </section>
+    </div>
+</body>
+</html>
+
+<script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.7.3/dist/vanilla-tilt.min.js"></script>
+<script>
+    VanillaTilt.init(document.querySelectorAll(".fall-rush-poster"), {
+        max: 10,      // max tilt rotation (degrees)
+        speed: 400,   // speed of tilt animation
+        glare: true,  // optional glare effect
+        "max-glare": 0.0
+    });
+</script>

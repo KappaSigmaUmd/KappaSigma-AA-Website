@@ -1,0 +1,162 @@
+
+@media (max-width: 1350px) {
+  .officer-row.three,
+  .officer-row.two { grid-template-columns: 1fr; }
+  .officers .card { width: 100%; } /* fill the column on mobile */
+}
+
+@media screen and (max-width: 800px) {
+    /* Nav */
+    .banner-image {
+        display: none;
+    }
+
+    .header-elements {
+        padding: 0 4vw 0 3vw;
+    }
+
+    .logo-container {
+        width: 140px;
+        height: 140px;
+    }
+
+    .logo-image-small {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    header {
+        background-color: #bf0d3e;
+        background-image: none;
+    }
+
+    .header-elements {
+        display: flex;
+        /* flex-direction: column; Stack logo and text vertically */
+        align-items: center;
+        text-align: center;
+        justify-content: space-between;
+
+    }
+
+    .burger {
+        display: block;
+        float: right;
+        padding-right: 3vw;
+    }
+
+  /* Fullscreen nav overlay for mobile */
+    .nav-overlay {
+        display: none;
+        position: fixed;
+        inset: 0;
+        background: rgba(255,255,255,0.7);
+        backdrop-filter: blur(8px);
+        z-index: 2000;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-overlay.active {
+        display: flex;
+    }
+
+    .nav-overlay .nav-links {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        font-size: 2rem;
+        background: none;
+        position: static;
+        width: 100%;
+        align-items: center;
+    }
+
+    .nav-overlay .nav-links li {
+        margin: 0;
+        padding: 0;
+    }
+
+    .desktop-nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000; /* ensures it’s on top of images/content */
+        background-color: transparent;
+        padding: 1rem 0;
+    }
+
+    /* Page layout */
+    .outer-page {
+        display: flex;
+        flex-direction: column;
+        padding: 4vw 8vw 4vw 8vw;
+    }
+
+    /* Home Page */
+    .home-about-link {
+        flex-direction: column-reverse;
+    }
+
+    .home-about-link a, .home-about, .home-rush-link a, .home-rush {
+        display:flex;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home-about, .home-rush {
+        padding: 0 20vw;
+        text-align: center;
+        padding-bottom: 5vw;
+    }
+
+    .home-rush-link {
+        flex-direction: column;
+    }
+
+    .ks-brotherhood-slogan, .ks-hq {
+        height: 30vw;
+    }
+
+    .home-about-text, .home-rush-text {
+        text-align: center;
+    }
+
+    /* About */
+    .mission-grid-container {
+        grid-template-columns: repeat(1, 1fr); /* 2 columns of equal width */
+    }
+
+    .fact-cards {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); /* 3 equal columns */
+        gap: 20px; /* space between cards */
+        margin-top: 20px;
+    }
+
+    /* Alumni Page */
+    .alumni-volunteer, .alumni-chapter, .alumni-donate {
+        flex-direction: column;
+    }
+}
+
+/* Size of iphone */
+@media screen and (max-width: 500px) {
+    /* nav */
+  .fraternity-name {
+    font-size: 2rem; /* smaller for small screens */
+  }
+
+  .chapter-school-name {
+    font-size: .9rem; /* smaller */
+  }  
+
+  .welcome-banner {
+    padding: 0 2vw
+  }
+}

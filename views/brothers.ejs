@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <title>Kappa Sigma | UMD | Brothers</title>
+    <%- include('partials/headTag') %> <!-- Inserts head tag stuff -->
+</head>
+<body>
+    <div class="scroll-container">
+        <section class="page">
+            <%- include('partials/navbar') %> <!-- Inserts navbar -->
+        </section>
+        <div class="brothers-outer-page">
+            <div class="brothers-inner-page">
+                <section class="page">
+                        <!-- <div class="brothers">
+                            <h1>Brothers</h1>
+                            <div class="profiles">
+                                <div class="profile">
+                                    <div class="profile-inner">
+                                        <img src="images/unknown_person_icon.png" alt="No profile picture">
+                                        <h2>Alek Read</h2>
+                                        <p>Public Relations Chair</p>
+                                    </div>
+                                </div>
+                                <div class="profile">
+                                    <div class="profile-inner">
+                                        <img src="images/unknown_person_icon.png" alt="No profile picture">
+                                        <h2>Christian Ramirez</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                        <div class = "brothers">
+                            <h1>Brothers</h1>
+                            <div class="profiles"></div>
+                            <script src="brothers.js"></script>
+                        </div>
+                </section>
+            </div>
+        </div>
+        <section class = "page">
+            <%- include('partials/footer') %> <!-- Inserts footer -->
+        </section>
+    </div>
+</body>
+</html>
+
+<script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.7.3/dist/vanilla-tilt.min.js"></script>
+<script> VanillaTilt.init(document.querySelectorAll(".profile")); </script>
