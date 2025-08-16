@@ -233,7 +233,7 @@ nav a:hover::after {
 html, body {
     margin: 0;
     height: 100%;
-    /* scroll-behavior: smooth; */
+    scroll-behavior: smooth;
 }
 
 .scroll-container {
