@@ -237,7 +237,7 @@ html, body {
 }
 
 .scroll-container {
-    scroll-snap-type: y mandatory;
+    scroll-snap-type: y proximity;
     scroll-padding-top: 30px;
     overflow-y: scroll;
     height: 100vh;
@@ -400,7 +400,7 @@ h2, h3 {
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
-.mission-grid-container > div:hover {
+.mission-grid-container > div:hover, .mission-grid-container > div:active{
   transform: translateY(-5px);
   box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 }
@@ -437,7 +437,7 @@ h2, h3 {
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
-.fact-card:hover {
+.fact-card:hover, .fact-card:active {
   transform: translateY(-5px);
   box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 }
