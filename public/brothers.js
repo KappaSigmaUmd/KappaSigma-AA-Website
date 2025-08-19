@@ -15,7 +15,7 @@ const members = [
     { name: "Nash Choudhury", role: "Grand Master", img: "unknown_person_icon.png" },
     { name: "Nathan Monteparte", role: "", img: "unknown_person_icon.png" },
     { name: "Nick Bentley", role: "Grand Treasurer", img: "unknown_person_icon.png" },
-    { name: "Boah Morraye", role: "", img: "unknown_person_icon.png" },
+    { name: "Noah Morraye", role: "", img: "unknown_person_icon.png" },
     { name: "Rami Shawwa", role: "Awards Chair", img: "unknown_person_icon.png" },
     { name: "Ricardo Francisco", role: "Alumni Chair and By-Laws Chair", img: "unknown_person_icon.png" },
     { name: "Saharsh Maloo", role: "Scholarship/Academic Chair", img: "unknown_person_icon.png" },

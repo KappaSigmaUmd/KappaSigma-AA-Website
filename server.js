@@ -26,7 +26,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 //Add all of your routes to this server file
 const routesPath = path.join(__dirname, 'routes'); 
-
 fs.readdirSync(routesPath).forEach(file => {
     if(file.endsWith('.js')) {
         const route = require(`./routes/${file}`); //Dynamically imports a route module from the routes folder
