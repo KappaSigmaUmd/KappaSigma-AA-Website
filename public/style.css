@@ -400,7 +400,7 @@ h2, h3 {
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
-.mission-grid-container > div:hover, .mission-grid-container > div:active{
+.mission-grid-container > div:hover, .mission-grid-container > div:active, .mission-grid-container > div:focus{
   transform: translateY(-5px);
   box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 }
@@ -437,7 +437,7 @@ h2, h3 {
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
-.fact-card:hover, .fact-card:active {
+.fact-card:hover, .fact-card:active, .fact-card:focus {
   transform: translateY(-5px);
   box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 }
