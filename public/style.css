@@ -44,11 +44,6 @@
     --ks-grey: #636466;
 }
 
-* {
-  -webkit-tap-highlight-color: transparent;
-  -webkit-touch-callout: none;
-}
-
 /* Header */
 header {
     background-image: url('/images/ks_banner.png');

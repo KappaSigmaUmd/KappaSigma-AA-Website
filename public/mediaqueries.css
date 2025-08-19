@@ -110,7 +110,7 @@
     }
 
     .home-about, .home-rush {
-        padding: 0 20vw;
+        padding: 0 10vw;
         text-align: center;
         padding-bottom: 5vw;
     }
@@ -125,6 +125,10 @@
 
     .home-about-text, .home-rush-text {
         text-align: center;
+    }
+
+    .welcome-text {
+        padding: 0 10vw;
     }
 
     /* About */
