@@ -5,7 +5,7 @@ Welcome to the University of Maryland Kappa Sigma website GitHub! If you are her
 1. You are going to need an IDE (integrated development environment), the most popular one is [Visual Studio Code](https://code.visualstudio.com/download).
 2. Next, you are going to need to install [git](https://git-scm.com/downloads/win). Git is an open source version control system. Github, uses git to upload and download files to and from your computer.
 3. I recommend downloading [GitHub Desktop](https://desktop.github.com/download/) as it makes all of the terminal work a UI, which makes it super simple. If you do this you can skip steps 4 and 5. You will have to clone the repository on the app (hit the drop down add button and click URL) and then click the open in VS Code button.
-4. In VS Code open a new terminal (ctrl + `) and type: git clone https://github.com/KappaSigmaUmd/KappaSigma-AA-Website.git. This will download the main branch to your computer.
+4. In VS Code open a new terminal (ctrl + ` ) and type: git clone https://github.com/KappaSigmaUmd/KappaSigma-AA-Website.git. This will download the main branch to your computer.
 5. Navigate Into the Project Folder if you aren't there already (cd KappaSigma-AA-Website). Terminal tips: cd stands for change directory (changing folders) and ls lists all of the files in the folder. cd .. goes back a folder.
 6. Install Node.js (if not already installed). The project requires Node.js to run. Download and install Node.js (choose the LTS version). Verify installation: node -v and npm -v
 7. Install Dependencies. Once inside the project folder, install the required packages: npm install
@@ -76,3 +76,7 @@ Designing this project from scratch was a lot of fun, and it was so cool seeing 
 - [ ] **Discussion board / forum**: Allow members to communicate online.
 - [ ] **Integration with social media**: Pull in posts from Instagram, Facebook, or Twitter.
 
+**Best of Luck,**  
+Ethan Everitt  
+Class of 2026  
+Grand Scribe
