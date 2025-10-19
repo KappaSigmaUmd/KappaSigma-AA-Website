@@ -1,6 +1,8 @@
 //To start the server:
 //Make sure in the package.json under scripts there is "dev": "nodemon server.js"
 //Then type: npm run dev (in the terminal)
+//To stop:
+//Ctrl C (in the terminal)
 
 //Load environment variables (from .env)
 //require('dotenv').config();
