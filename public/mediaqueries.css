@@ -163,4 +163,15 @@
   .welcome-banner {
     padding: 0 2vw
   }
+
+  /* Home Page */
+  .ks-hq {
+    height: 200px;
+  }
+
+
+  /* Rush */
+  .fall-rush-poster {
+    width: 100%;
+  }
 }

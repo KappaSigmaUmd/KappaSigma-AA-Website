@@ -27,7 +27,7 @@ members.forEach(member => {
     profile.setAttribute("max-glare", "0.5");
 
     const inner = document.createElement("div");
-    inner.classList.add("profile-inner"); // matches your CSS
+    inner.classList.add("profile-inner"); 
 
     inner.innerHTML = `
         <img src="images/${member.img}" alt="${member.name}">

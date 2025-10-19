@@ -193,7 +193,7 @@ nav a:hover::after {
     height: 40px;          /* fixed base size */
     max-height: 5vh;       /* won’t get taller than 5% of viewport height */
     width: auto;           /* keeps aspect ratio */
-    margin: 0 10px;        /* spacing between logos and text */
+    margin: 10px;        /* spacing between logos and text */
 }
 
 .insta-banner {
@@ -550,7 +550,7 @@ h2, h3 {
 }
 
 .fall-rush-poster {
-  width: 50%;
+  width: 60%;
   padding-bottom: 6vw;
   padding-top: 3vw;
 }
