@@ -547,6 +547,7 @@ h2, h3 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 50px;
 }
 
 .fall-rush-poster {
@@ -566,7 +567,7 @@ h2, h3 {
     background-size: 500% 500%;
     animation: gradientShift 4s ease infinite;
     color: white;
-    padding: 24px 36px;
+    padding: 36px 72px;
     border-radius: 8px;
     text-decoration: none;
     font-weight: bold;
