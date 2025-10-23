@@ -3,6 +3,7 @@ const members = [
     { name: "Ethan George", role: "Intramurals Chair and Diversity & Inclusion Chair", img: "unknown_person_icon.png" },
     { name: "Farzan Ahmed", role: "", img: "unknown_person_icon.png" },
     { name: "Kurt Schwarz", role: "", img: "unknown_person_icon.png" },
+    { name: "Luke Whitlock", role: "", img: "unknown_person_icon.png"},
     { name: "Nash Choudhury", role: "Grand Master", img: "unknown_person_icon.png" },
     { name: "Nick Bentley", role: "Grand Treasurer", img: "unknown_person_icon.png" },
     { name: "Ryan Nyugen", role: "", img: "unknown_person_icon.png" },
